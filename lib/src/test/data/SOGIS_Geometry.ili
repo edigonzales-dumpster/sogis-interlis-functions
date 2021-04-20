@@ -1,0 +1,10 @@
+INTERLIS 2.3;
+CONTRACTED MODEL SOGIS_Geometry
+  AT "mailto:stefan.ziegler@bd.so.ch" VERSION "2021-04-20" =
+     
+   DOMAIN
+      COORD3 (ABSTRACT) = COORD NUMERIC,NUMERIC,NUMERIC;
+         
+   FUNCTION area(objects: OBJECTS OF ANYCLASS; attributePath: TEXT): NUMERIC;
+
+END SOGIS_Geometry.
